@@ -114,9 +114,6 @@ document.getElementById("loveIn").onclick = function() {
   function otomatis(){halo.style.opacity="0"; kalimat.style="opacity:0"; setTimeout(otolanj,400);}
   function otolanj(){halo.style.opacity="1";kalimat.style="opacity:1";}
 
-  function StartMarqueeL(){fotostiker.style="";imglewat.style="opacity:1;position:relative;";var marquee = document.getElementById ("imglewat");marquee.start();}
-  function StopMarqueeL(){var marquee = document.getElementById ("imglewat");marquee.stop();}StopMarqueeL(); 
-
   const waktuSekarang = new Date().getHours();let ucapan;
   if(waktuSekarang < 10){ucapan = "Good Morning ";} 
   else if(waktuSekarang < 16){ucapan = "Selamat Siang ";}

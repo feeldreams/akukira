@@ -91,13 +91,6 @@ document.getElementById("loveIn").onclick = function() {
   function pgmuncul(){pergeseran.style="position:relative;margin-top:5vh;opacity:1;visibility:visible;transform:scale(1);";ftmuncul();setTimeout(munculkembali,500)}
   function bqmuncul(){pergeseran.style="display:none";ketgeser.style="display:none";bq.style = "position:relative;opacity:1;visibility:visible;margin-top:0;transform: scale(1);";setTimeout(kalimatakhir,200);}
   function bqhilang(){wallpaper.style="transform: scale(2);";bodyblur.style="opacity:.3";bq.style = "position:relative;transition:all .7s ease;";}
-  
-  function tombol(){Tombol.style="opacity:1;transform: scale(1);";}
-  
-  document.getElementById("By").onclick = function() {
-    if(fungsi==1){Tombol.style="";otomatis();setTimeout(aktipesan6,400);fungsi=0;} 
-    if(fungsi==2){Tombol.style="";menuju();}
-  }
  
   function mulaiketikA(){
   ftganti=10;ftmuncul();
